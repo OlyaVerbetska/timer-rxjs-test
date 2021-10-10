@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+button {
+    font-size: 32px;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #aab1b1;
+    display: block;
+    margin: 10px auto;
+    cursor:pointer;
+}
+.start {
+    background-color: #208a20;
+}
+.stop {
+    background-color: #c05345;
+}
+.time {
+        font-size: 40px;
+        display: block;
+        margin: 0 0 30px 0;
+
+}
+.timer {
+    margin:10px  auto;
+      width: 600px;
+      text-align: center;
+      
+}
